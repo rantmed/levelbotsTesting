@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Companies Levelbots</title>		
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+</head>
+<body>
+
+<!-- 	<form class="ui form">
+  <div class="field">
+    <label>Dirección de correo</label>
+    <input type="text" name="first-name" placeholder="Email">
+  </div>
+  <div class="field">
+    <label>Contraseña</label>
+    <input type="text" name="last-name" placeholder="Contraseña">
+  </div>
+  <div class="field">
+    <div class="ui checkbox">
+      <input type="checkbox" tabindex="0" class="hidden">
+      <label>I agree to the Terms and Conditions</label>
+    </div>
+  </div>
+  <button class="ui button" type="submit">Loggin</button>
+</form> -->
+	<div class="container-fluid">		
+		<button class="ui inverted red button" id="send">Listado de compañias</button>
+		<form class="ui form style">
+		  <div class="field">
+		    <label>Nombre de la empresa</label>
+		    <input type="text" id="inputName" name="first-name" placeholder="Facebook">
+		  </div>
+		  <div class="field">
+		    <label>Dirección web</label>
+		    <input type="text" id="inputUrl" name="last-name" placeholder="www.facebook.com">
+		  </div>
+		  <div class="field">
+		    <label>ID</label>
+		    <input type="text" id="inputID" placeholder='ObjectId("52cdef7c4bab8bd675297d8a")'>
+		  </div>
+		  <div class="field">
+		    <label>Productos</label>
+		    <input type="text" id="inputProducts" placeholder='Productos'>
+		  </div>
+		  <div class="field">
+		    <label>Miembros de la empresa</label>
+		    <input type="text" id="inputMembers" placeholder='Miembros'>
+		  </div>
+
+		  <button class="ui button" type="submit" id="btnAddUser">Add Company</button> 
+		</form> 
+	</div>
+
+	<div class="ui left aligned  selection list" id="publication"></div>
+
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+	  <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+	<script src="semantic.min.js"></script>
+	<script src="script.js"></script>	
+	
+
+</body>
+</html>

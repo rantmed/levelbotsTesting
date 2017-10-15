@@ -1,0 +1,447 @@
+@media screen and (max-width: 991px) , (max-device-width: 769px){
+	
+	.navbar-brand{
+		position: absolute;
+		right: 0;
+		margin-right: 15px;
+	}
+
+	.navbar-toggler{
+		width: 140px;
+		height: 100%;
+		border: 3px solid;
+		border-radius: 40px;
+		border-color: #747474 !important; 
+	}
+
+	.navbar-toggler-icon{
+		width: 70%;
+		height: 70%;
+	}
+
+	#navbarNavDropdown{
+		text-align: center;
+		background-color: rgba(0, 0, 0, .9);
+		z-index: 10;
+		padding: 10px;
+		border-radius: 50px;
+	}
+
+	#login,#register,#disconect{
+		margin:10px;
+	}
+
+}
+
+@media screen and (max-device-width: 760px){
+	
+	.navbar{
+		height: 140px !important;
+	}
+
+	#nav-logo{
+		height: 115px;
+		width: 240px;
+	}
+
+	.nav-item{
+		font-size: 50px;
+	}
+
+	#login,#register,#disconect{
+		font-size: 50px !important;
+		margin: 20px;
+	}
+
+	.dropdown-menu{
+		text-align: center;
+		border-radius: 30px;
+	}
+
+	.dropdown-item{
+		font-size: 45px;
+	}
+
+	#video-background {
+		display:none;
+	}
+
+	#page{
+		margin:0% !important; 
+	}
+
+	#content-title,#type { 
+		font-size: 90px !important; 
+	}
+
+	#text-area>p,#warning { 
+		font-size: 55px !important; 
+		margin-top:100px;
+	}
+
+	#btn-start,.Siguiente,#btn-save,#select-accept{ 
+		font-size: 50px !important;  
+		margin-top: 100px; 
+		margin-bottom: 100px;  
+	}
+	.AMD{ 
+		font-size: 50px !important; 
+		margin-left:5% !important; 
+		margin-top: 100px; margin-bottom: 100px;  
+		border-radius: 20px;
+	}
+	
+	.Intel,.NVIDIA{ 
+		font-size: 50px !important; 
+		margin-left:3% !important; 
+		margin-top: 100px; 
+		margin-bottom: 100px;  
+		border-radius: 20px;
+	}
+	
+	#table-area>*{ 
+		font-size: 25px; 
+	}
+	
+	#table-area{ 
+		width: 100%; 
+	}
+
+	#result-list>li { 
+		font-size: 30px; 
+		font-weight: bold; 
+	}
+
+	.modal-body { 
+		margin-left: -79px; 
+		width: 450px; 
+		z-index: 300000;
+	}
+
+	.modal-content,.form-box { 
+		padding-left: 100px; 
+		padding-right: 100px; 
+	}
+
+	#signupForm>*,#loginForm>*,#formLabel,#emailInput,#passwordInput,#regBtn,#loginBtn { 
+		font-size: 50px; 
+	}
+
+	#regBtn,#loginBtn{
+		border-radius: 20px;
+	}
+
+	.close { 
+		font-size: 50px; 
+		margin-left: 80px;
+	}
+
+	#publication { 
+		margin:0 !important; 
+	}
+
+	.card { 
+		width: 32% !important; 
+	}
+
+	.container>p { 
+		font-size: 30px; 
+	} 
+
+	#msg-failure{
+		font-size: 40px;
+	}
+
+}
+
+
+
+#nav-logo{
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: #747474;
+}
+
+#nav-logo:hover{
+	border-color: #FFF;
+	opacity: 0.5;
+}
+
+.nav-link{
+	margin-top:10px;
+}
+
+#background-novideo{
+	background-image: url('/images/bg-novideo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+h2,p{
+	color:#FFF;
+}
+
+#page{
+	margin-left:15%;
+	margin-right:15%;
+}
+
+
+
+#content{
+	background-color:rgba(0, 0, 0, .7);
+	margin-top: 30px;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+#content>h2{
+	margin-top: 40px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Indie Flower';
+}
+
+#table-area{
+	margin-top: 40px;
+}
+
+#table-area>thead{
+	cursor: pointer;
+	background: rgba(0, 0, 0, .2);
+}
+
+#table-area>thead>tr>th:hover{
+	cursor: pointer;
+	color:#838181;
+	transition: inherit;
+	transition-duration: 0.5s;
+}
+
+#table-area>tbody>tr>td:hover{
+	cursor: pointer;
+	color:#838181;
+	transition: inherit;
+	transition-duration: 0.5s;
+}
+
+#table-area>*{	
+	font-family: 'Roboto Mono', monospace;
+}
+
+.btn{
+	border: 3px solid;
+	border-radius: 10px;
+}
+
+.btn:hover{
+	border-color: #83D4FE;
+	background-color: #FFF;
+	color:black;
+}
+
+#login{
+	position: relative;
+    right: 10px;
+}
+
+#btn-start{
+	display: inline-block;
+}
+
+#btn-start:hover{
+	border-color: #83D4FE;
+	background-color: #FFF;
+	opacity: 1 !Important;
+}
+
+.AMD{
+	margin-right: 1%;
+}
+
+#cpu-freq:after{
+	content: "GHz";
+}
+
+#watts:after, #psu-wattage:after{
+	content: "W";
+}
+
+#eur:after,.price:after{
+	content: "€";
+}
+
+#gpu-mem-clock:after, #mem-boost:after, #mem-memory:after{
+	content: "MHz";
+}
+
+#mem-memory:after{
+	content: "GB";
+}
+
+#text-area,#warning,#btn-area,#save-area{
+	text-align: center;
+}
+
+#text-area>p{
+	font-family: 'Roboto Mono', monospace;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#icons-row{
+	display: inline-block;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#icons-row>img{
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.navbar{
+	background-color: #000 !important;
+	height: 80px;
+}
+
+#result-list{
+	margin-top: 20px;
+}
+
+#result-list>*{
+	color: #FFF;
+	margin-top:10px;
+	list-style: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+#final-price{
+	text-align: center;
+	margin-top: 30px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+#advice-area{
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#advice{
+	color:#FFF;
+}
+
+#type-of-config{
+	margin-top: -110px;
+}
+
+#btn-save{
+	display: inline-block;
+	margin-left: 4%;
+	margin-top:5%;	
+}
+
+#warning{
+	color:red;
+}
+
+.computer-list{
+	list-style: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+._id,.__v,.topic{
+	display: none;
+}
+
+#publication{
+	margin-top:40px;
+	text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.card {
+	background-image: url('/images/card.jpg');
+	background-attachment:fixed;
+	background-repeat: repeat;
+	background-position: center;
+	color: #FFF;
+	font-size: 15px;
+	float: left;
+    transition: 0.6s;
+	border-radius: 50px;
+	text-align: center;
+	border:2px solid;
+	border-color:#83D4FE;
+	width: 23%;
+	margin:5px;
+}
+
+.card:hover {
+	background-image: url('/images/card-hover.jpg');
+	background-attachment:fixed;
+	background-repeat: repeat;
+	background-position: center;
+	border-color: rgba(255, 0, 0, 0.5);
+}
+
+.card-picture {
+	margin-top: 15px;
+	border-radius: 20px;
+	width: 90%;
+	align-self: center;
+}
+
+.card-container {
+	padding: 2px 16px;
+	background-color:rgba(0, 0, 0, 0.7);
+	border-radius: 50px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+
+.brand,.name,.price{
+	font-weight: bold;
+}
+
+#video-background { /*Propiedades CSS para poder poner el vídeo de fondo de pantalla de la web*/
+	position: fixed;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -100;
+}
+
+.form-title{
+	color:white;
+}
+
+#msg-failure{
+	color:#FE0000;
+	text-align: center;
+}
+
+footer{
+	text-align:center;
+	font-size: 16px;
+	background-color: #000;
+	color:#FFF;
+    width: 100%;
+    position:relative;
+    z-index: 823452374574;
+}

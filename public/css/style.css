@@ -1,0 +1,45 @@
+
+
+#publication{
+	margin-top:40px;
+	text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.companyCard {	
+	color: #FFF;
+	font-size: 13px;	    
+	border-radius: 3px;
+	text-align: center;
+	/* border:2px solid; */
+	border-color:#f2711c;	
+	margin:5px;
+}
+
+
+.card-container {
+	padding: 2px 16px;
+	background-color:rgba(5, 76, 3, 0.7);
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+} 
+
+.style{
+	width: 600px;	
+	left: 300px;
+	margin-top: 5px;
+
+}
+
+.style-list {	
+	background-color:rgba(5, 76, 3, 0.7);	
+	font-weight: bold;
+
+}
