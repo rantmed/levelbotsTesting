@@ -1,4 +1,4 @@
-var CompanyModel = require('../../models/companyModel');
+var CompanyModel = require('../models/companyModel');
 
 module.exports = function (app) {
 
