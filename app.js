@@ -1,7 +1,6 @@
 var path = require('path');
 var express = require('express');
 var mongoose = require('mongoose');
-var port = process.env.PORT || 3000;
 var bodyParser = require('body-parser');
 
 
@@ -46,7 +45,11 @@ require('./app/routes/routeCompany')(app);
 
 
 
+// bind the app to listen for connections on a specified port
+var port = process.env.PORT || 3000;
+app.listen(port);
 
-app.listen(3000);
+// Render some console log output
+console.log("Listening on port " + port);
 
 
